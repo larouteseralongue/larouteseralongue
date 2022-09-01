@@ -1,7 +1,6 @@
 import time
 from tkinter import *
-
-# from playsound import playsound
+from playsound import playsound
 
 
 wind = Tk()
@@ -63,7 +62,7 @@ def Timer():
         wind.update()
         time.sleep(1)
         if times == 0:
-            # playsound("sonnerie.mp3")
+            playsound("sonnerie.mp3")
             sec.set("00")
             mins.set("00")
             hrs.set("00")
